@@ -1,0 +1,57 @@
+# Compiled output
+target/
+build/
+*.class
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Maven / Gradle local cache
+.mvn/
+.m2/
+.gradle/
+gradle-app.setting
+gradlew
+gradlew.bat
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application generated archives
+*.jar
+*.war
+*.nar
+*.ear
+
+# Spring Boot fat jar (if generated locally)
+[!]*-spring-boot.jar
+
+# Application specific sensitive config (optional)
+application-*.properties
+application-*.yml
+bootstrap-*.properties
+bootstrap-*.yml
+
+# Ignore .env files
+.env
+.env.local
